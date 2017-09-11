@@ -62,9 +62,7 @@ Now that the SDK is installed, it's time to begin working with QISKit. First, ge
 
 This API token allows you to execute your programs on the IBM Quantum Experience backends.
 
-We are now ready to try out some QASM examples, which run via the local simulator.
-
-The following is a simple superpesition example:
+We are now ready to try out some QASM examples, which run via the local simulator. The following is a simple superpesition example:
 
 ```
 from qiskit import QuantumProgram
