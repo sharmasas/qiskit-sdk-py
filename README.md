@@ -11,26 +11,27 @@ Use **QISKit** to create quantum computing programs, compile them, and execute t
 Links to Sections:
 
 * [Installation](#installation)
-* [Create your first Quantum Program](#create-your-first-quantum)
+* [Create your first Quantum Program](#create-your-first-quantum-program)
 * [More Information](#more-information)
 * [Authors](#authors-(alphabetical))
 * [License](#license)
 
 # Installation
+
 ## Dependencies
 
-At least [Python 3.5 or later](https://www.python.org/downloads/) is needed for using QISKit and [Jupyter Notebooks](https://jupyter.readthedocs.io/en/latest/install.html) is recommended for interacting with the tutorials.
-For this reason we recomend installing [Anaconda 3](https://www.continuum.io/downloads) python distribution, because it already comes with all of these dependencies pre-installed.
+[Python 3.5 or later](https://www.python.org/downloads/) is needed to use QISKit. In addition, [Jupyter Notebooks](https://jupyter.readthedocs.io/en/latest/install.html) is recommended for interacting with the tutorials.
+For this reason we recomend installing [Anaconda 3](https://www.continuum.io/downloads) python distribution, as it comes with all of these dependencies pre-installed.
 
 In addition, a basic understanding of quantum information is very helpful when interacting with QISKit. If you're new to quantum, start with our [User Guides](https://github.com/QISKit/ibmqx-user-guides)!
 
-## install QISKit
+## Install QISKit
 
-For those who are familiar with python, go through the following install procedure:
+For those who are familiar with python, use the following install procedure:
 
 ### PIP Installation
 
-The fastest way to install QISKit is by using PIP tool (Python package manager):
+The fastest way to install QISKit is by using the PIP tool (a python package manager):
 
 ```
     pip install qiskit
@@ -38,20 +39,21 @@ The fastest way to install QISKit is by using PIP tool (Python package manager):
 
 ### Source Installation 
 
-An alternative method is to clone the QISKit SDK repository in your local machine, and change into the cloned directory:
+An alternative method is to clone the QISKit SDK repository in your local machine, and navigate to the cloned directory via terminal:
 
 #### Download the code 
 
-Select the "Clone or download" button at the top of this webpage (or from the URL shown in the git clone command), unzip the file if needed, and change into **qiskit-sdk-py folder** in a terminal window.
+Select the "clone or download" button at the top of this webpage (or from the URL shown in the git clone command), unzip the file if needed, and then navigate to the **qiskit-sdk-py folder** in a terminal window.
 
 #### Clone the repository 
 
-If you have Git installed, run the following commands:
+Alternatively, if you have Git installed, run the following commands: 
 ```
     git clone https://github.com/QISKit/qiskit-sdk-py
     cd qiskit-sdk-py
 ```
-#### Setup you enviroment
+
+### Setup you enviroment
 
 We recomend using python virtual environments to improve your experience. [Setup the environment](doc/install.rst#3.1-Setup-the-environment)
 
@@ -59,12 +61,12 @@ We recomend using python virtual environments to improve your experience. [Setup
 
 Now that the SDK is installed, it's time to begin working with QISKit. First, get your API token:
 
--  Create an `IBM Quantum Experience <https://quantumexperience.ng.bluemix.net>`__ account if you haven't already done so
+-  Create an [IBM Quantum Experience (QX)](https://quantumexperience.ng.bluemix.net/) account if you haven't already done so
 -  Get an API token from the Quantum Experience website under “My Account” > “Personal Access Token”
 
-This API token allows you to execute your programs into the IBM Quantum Experience backends.
+This API token allows you to execute your programs on the IBM Quantum Experience backends.
 
-We are ready to try out some QASM examples, which runs via the local simulator.
+We are now ready to try out some QASM examples, which runs via the local simulator.
 
 This is a simple superpesition example.
 
@@ -104,17 +106,13 @@ COMPLETED
 ```
 
 
-You can execute your code in a [real Quantum Chip](https://github.com/QISKit/ibmqx-backend-information).
-
-More details in [the Qiskit documentation](doc/qiskit.rst).
+You can execute your code on a [real Quantum Chip](https://github.com/QISKit/ibmqx-backend-information). More details on this and more so in [our QISKit documentation](doc/qiskit.rst).
 
 ### Next Steps
 
-Now you're set up and ready to check out some of the other examples from our [Tutorials](https://github.com/QISKit/qiskit-tutorial) repository! These tutorials are developed using [Jupyter Notebooks](https://jupyter.org/), but can be accessed as read-only from their own github web page. To install them as part of the QISKit SDK, read the installation details [installation details](doc/install.rst#Install-Jupyter-based-tutorials)
+Now you're set up and ready to check out some of the other examples from our [Tutorials](https://github.com/QISKit/qiskit-tutorial) repository! Start with the [index tutorial](https://github.com/QISKit/qiskit-tutorial/blob/master/index.ipynb) and then go to the [‘Getting Started’ example](https://github.com/QISKit/qiskit-tutorial/blob/002d054c72fc59fc5009bb9fa0ee393e15a69d07/1_introduction/getting_started.ipynb). If you already have [Jupyter Notebooks installed](https://jupyter.readthedocs.io/en/latest/install.html), you can copy and modify the notebooks to create your own experiments.
 
-Start with the [index tutorial](https://github.com/QISKit/qiskit-tutorial/blob/master/index.ipynb) and then go to the [‘Getting Started’ example](https://github.com/QISKit/qiskit-tutorial/blob/002d054c72fc59fc5009bb9fa0ee393e15a69d07/1_introduction/getting_started.ipynb). If already have [Jupyter Notebooks installed](https://jupyter.readthedocs.io/en/latest/install.html), you can copy and modify the notebooks to create your own experiments.
-
-The *qiskit* directory is the main module of the SDK, and the complete SDK documentation can be found into the *doc* directory.
+These tutorials are developed using [Jupyter Notebooks](https://jupyter.org/), but can be accessed as read-only from their own github web page. To install the tutorials as part of the QISKit SDK, see the following installation details [installation details](doc/install.rst#Install-Jupyter-based-tutorials). Complete SDK documentation can be found in the [*doc* directory](doc/qiskit.rst).
 
 ## More Information
 
