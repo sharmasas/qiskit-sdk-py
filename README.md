@@ -108,7 +108,7 @@ You can also use QISKit to execute your code on a [real Quantum Chip](https://gi
 
 Now you're set up and ready to check out some of the other examples from our [Tutorials](https://github.com/QISKit/qiskit-tutorial) repository. Start with the [index tutorial](https://github.com/QISKit/qiskit-tutorial/blob/master/index.ipynb) and then go to the [‘Getting Started’ example](https://github.com/QISKit/qiskit-tutorial/blob/002d054c72fc59fc5009bb9fa0ee393e15a69d07/1_introduction/getting_started.ipynb). If you already have [Jupyter Notebooks installed](https://jupyter.readthedocs.io/en/latest/install.html), you can copy and modify the notebooks to create your own experiments.
 
-These tutorials are developed using [Jupyter Notebooks](https://jupyter.org/), but can be accessed as read-only from their own github web page. To install the tutorials as part of the QISKit SDK, see the following installation details [installation details](doc/install.rst#Install-Jupyter-based-tutorials). Complete SDK documentation can be found in the [*doc* directory](doc/qiskit.rst).
+To install the tutorials as part of the QISKit SDK, see the following installation details [installation details](doc/install.rst#Install-Jupyter-based-tutorials). Complete SDK documentation can be found in the [*doc* directory](doc/qiskit.rst).
 
 ## More Information
 
@@ -126,8 +126,6 @@ For more information on how to use QISKit, tutorial examples, and other helpful 
 
 
 QISKit was originally developed by researchers and developers on the [IBM-Q](http://www.research.ibm.com/ibm-q/) Team at [IBM Research](http://www.research.ibm.com/), with the aim of offering a high level development kit to work with quantum computers.
-
-Visit the [IBM Q Experience community](https://quantumexperience.ng.bluemix.net/qx/community) for questions and discussions on QISKit and quantum computing more broadly. If you'd like to contribute to QISKit, please take a look at our [contribution guidelines](CONTRIBUTING.rst).
 
 
 ## Authors (alphabetical)
