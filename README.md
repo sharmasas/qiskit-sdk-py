@@ -38,9 +38,11 @@ For those more familiar with python, the fastest way to install QISKit is by usi
 
 An alternative method is to clone the QISKit SDK repository onto your local machine:
 
-#### Download the code 
+#### Manual download
 
 Select the "clone or download" button at the top of this webpage (or from the URL shown in the git clone command), unzip the file if needed, and then navigate to the **qiskit-sdk-py folder** in a terminal window.
+
+#### Git download
 
 Or, if you have Git installed, run the following commands instead: 
 
