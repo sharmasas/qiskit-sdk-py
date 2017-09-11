@@ -16,22 +16,19 @@ Links to Sections:
 * [Authors](#authors-alphabetical)
 * [License](#license)
 
-# Installation
+## Installation
 
-## Dependencies
+### Dependencies
 
 [Python 3.5 or later](https://www.python.org/downloads/) is needed to use QISKit. In addition, [Jupyter Notebooks](https://jupyter.readthedocs.io/en/latest/install.html) is recommended for interacting with the tutorials.
 For this reason we recomend installing [Anaconda 3](https://www.continuum.io/downloads) python distribution, as it comes with all of these dependencies pre-installed.
 
 In addition, a basic understanding of quantum information is very helpful when interacting with QISKit. If you're new to quantum, start with our [User Guides](https://github.com/QISKit/ibmqx-user-guides)!
 
-## Install QISKit
-
-For those who are familiar with python, use the following install procedure:
 
 ### PIP Installation
 
-The fastest way to install QISKit is by using the PIP tool (a python package manager):
+For those more familiar with python, the fastest way to install QISKit is by using the PIP tool (a python package manager):
 
 ```
     pip install qiskit
