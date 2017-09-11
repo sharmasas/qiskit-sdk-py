@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/QISKit/qiskit-sdk-py.svg?branch=master)](https://travis-ci.org/QISKit/qiskit-sdk-py)
 
-The Quantum Information Software Kit (**QISKit** for short) is a software development kit (SDK) for working with [OpenQASM](https://github.com/QISKit/qiskit-openqasm) and the [IBM Quantum Experience (QX)](https://quantumexperience.ng.bluemix.net/). 
+The Quantum Information Software Kit, or **QISKit** for short, is a software development kit (SDK) for working with [OpenQASM](https://github.com/QISKit/qiskit-openqasm) and the [IBM Quantum Experience (QX)](https://quantumexperience.ng.bluemix.net/). 
 
 Use **QISKit** to create quantum computing programs, compile them, and execute them on one of several backends (online Real Quantum Processors, online Simulators, and local Simulators). For the online backends, QISKit uses our [python API client](https://github.com/QISKit/qiskit-api-py) to connect to the IBM Quantum Experience. 
 
@@ -10,12 +10,13 @@ Use **QISKit** to create quantum computing programs, compile them, and execute t
 
 Links to Sections:
 
-* [Installation](#installation-and-setup)
-* [Creating your first Quantum Program](#getting-started)
+* [Installation](#installation)
+* [Create your first Quantum Program](#create-your-first-quantum)
 * [More Information](#more-information)
+* [Authors](#authors-(alphabetical))
 * [License](#license)
 
-# Installation and setup
+# Installation
 ## Dependencies
 
 At least [Python 3.5 or later](https://www.python.org/downloads/) is needed for using QISKit and [Jupyter Notebooks](https://jupyter.readthedocs.io/en/latest/install.html) is recommended for interacting with the tutorials.
@@ -54,7 +55,7 @@ If you have Git installed, run the following commands:
 
 We recomend using python virtual environments to improve your experience. [Setup the environment](doc/install.rst#3.1-Setup-the-environment)
 
-## Creating your first Quantum Program
+## Create your first Quantum Program
 
 Now that the SDK is installed, it's time to begin working with QISKit. First, get your API token:
 
